@@ -1,0 +1,11 @@
+#DataTables_Table_0_filter{
+    margin-bottom:15px !important;
+}
+.remove_icon {
+    background:#fff !important;
+}
+
+table.dataTable thead tr th:last-child .sorting:after {
+
+    content:'' !important;
+}
