@@ -47,13 +47,16 @@
                 </div>
                 <div class="cart">
                     <div>
-                        <div class="qty"> <strong>Qty:</strong> <a class="qtyBtn mines" href="javascript:void(0);">-</a>
-                            <input id="qty" type="text" class="w30" name="quantity" size="2" value="1" />
-                            <a class="qtyBtn plus" href="javascript:void(0);">+</a>
-                            <input type="hidden" name="product_id" size="2" value="30" />
-                            <div class="clear"></div>
-                        </div>
-                        <input type="button" value="Add to Cart" id="button-cart" class="button" />
+                        <form action="<?php echo base_url(); ?>welcome/add_to_cart" method="post">
+                            <input type="hidden"  name="product_id" value="<?php echo $product->product_id; ?>">
+                            <div class="qty"> <strong>Qty:</strong> <a class="qtyBtn mines" href="javascript:void(0);">-</a>
+                                <input id="qty" type="text" class="w30" name="quantity" size="2" value="1" />
+                                <a class="qtyBtn plus" href="javascript:void(0);">+</a>
+                                <div class="clear"></div>
+                            </div>
+                            <input  type="submit" value="Add to Cart" id="button-cart" class="button" />
+                        </form>
+
                     </div>
                     <div><a href="product.html#" class="wishlist" >Add to Wish List</a> <a href="product.html#" class="wishlist" >Add to Compare</a></div>
                 </div>

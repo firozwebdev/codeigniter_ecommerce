@@ -8,6 +8,7 @@
     <meta name="description" content="clean modern and elegant corporate look eCommerce html template">
     <meta name="author" content="">
     <!-- CSS Part Start-->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/front/css/stylesheet.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/front/css/slideshow.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/front/css/flexslider.css" media="screen" />
