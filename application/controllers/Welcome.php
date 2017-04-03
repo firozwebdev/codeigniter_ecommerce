@@ -100,6 +100,12 @@ class Welcome extends CI_Controller {
 
     public function order_place(){
        $billing_id = $this->session->userdata("billing_id");
-       echo $billing_id;
+       $payment_method = $this->input->post('payment_method');
+       if($payment_method == 'cash'){
+
+       }
+       if($payment_method == 'paypal'){
+
+       }
     }
 }

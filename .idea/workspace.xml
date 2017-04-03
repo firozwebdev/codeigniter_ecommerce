@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a512483-7f9c-40b1-af12-855f8874ac1d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/front/pages/checkout.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/front/pages/payment_method.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Welcome.php" afterPath="$PROJECT_DIR$/application/controllers/Welcome.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/welcome_model.php" afterPath="$PROJECT_DIR$/application/models/welcome_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/front/front_layout.php" afterPath="$PROJECT_DIR$/application/views/front/front_layout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/front/pages/cart_view.php" afterPath="$PROJECT_DIR$/application/views/front/pages/cart_view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/front/pages/payment_method.php" afterPath="$PROJECT_DIR$/application/views/front/pages/payment_method.php" />
     </list>
     <ignored path="codeignitor_project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,8 +38,8 @@
       <file leaf-file-name="Welcome.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/Welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="99" column="0" lean-forward="true" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+            <state relative-caret-position="443">
+              <caret line="105" column="8" lean-forward="true" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -52,8 +48,8 @@
       <file leaf-file-name="payment_method.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/front/pages/payment_method.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="2" column="66" lean-forward="false" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="66" />
+            <state relative-caret-position="182">
+              <caret line="7" column="134" lean-forward="false" selection-start-line="7" selection-start-column="134" selection-end-line="7" selection-end-column="134" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -200,8 +196,8 @@
         <option value="$PROJECT_DIR$/application/views/front/front_layout.php" />
         <option value="$PROJECT_DIR$/application/views/front/pages/cart_view.php" />
         <option value="$PROJECT_DIR$/application/views/front/pages/checkout.php" />
-        <option value="$PROJECT_DIR$/application/views/front/pages/payment_method.php" />
         <option value="$PROJECT_DIR$/application/models/welcome_model.php" />
+        <option value="$PROJECT_DIR$/application/views/front/pages/payment_method.php" />
         <option value="$PROJECT_DIR$/application/controllers/Welcome.php" />
       </list>
     </option>
@@ -538,12 +534,12 @@
       <workItem from="1489549297704" duration="8631000" />
       <workItem from="1490599836965" duration="908000" />
       <workItem from="1490768030728" duration="7471000" />
-      <workItem from="1491196673553" duration="3087000" />
+      <workItem from="1491196673553" duration="3975000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20516000" />
+    <option name="totallyTimeSpent" value="21404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -555,7 +551,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17547569" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30866808" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -954,8 +950,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/front/pages/payment_method.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="66" lean-forward="false" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="66" />
+        <state relative-caret-position="182">
+          <caret line="7" column="134" lean-forward="false" selection-start-line="7" selection-start-column="134" selection-end-line="7" selection-end-column="134" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
@@ -964,8 +960,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/Welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="99" column="0" lean-forward="true" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+        <state relative-caret-position="443">
+          <caret line="105" column="8" lean-forward="true" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="8" />
           <folding />
         </state>
       </provider>
