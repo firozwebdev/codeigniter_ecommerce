@@ -64,7 +64,7 @@
                 <section id="cart">
                     <div class="heading">
                         <h4><img width="32" height="32" alt="" src="<?php echo base_url();?>assets/front/image/cart-bg.png"></h4>
-                        <a><span id="cart-total">2 item(s) - $710.18</span></a> </div>
+                        <a><span id="cart-total"><?php echo $this->cart->total_items(); ?> - $710.18</span></a> </div>
                     <div class="content">
                         <div class="mini-cart-info">
                             <table>

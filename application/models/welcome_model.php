@@ -89,5 +89,11 @@ class Welcome_Model extends CI_Model
         return $result;
     }
 
+    public function save_billing_info($data){
+        $this->db->insert('tbl_billing_address', $data);
+        $insert_id = $this->db->insert_id();
+        return  $insert_id;
+    }
+
 
 }

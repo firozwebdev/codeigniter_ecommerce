@@ -52,4 +52,54 @@ class Welcome extends CI_Controller {
         $data['main_content'] = $this->load->view('front/pages/cart_view',$data,true);
         $this->load->view('front/front_layout',$data);
     }
+
+    public function update_cart(){
+        $data = [];
+        $data['rowid'] = $this->input->post('rowid');
+        $data['qty'] = $this->input->post('quantity');
+        $this->cart->update($data);
+        redirect('welcome/show_cart');
+    }
+
+    public function remove_cart($rowid){
+        $rowid = $rowid;
+        $this->cart->remove($rowid);
+        redirect('welcome/show_cart');
+    }
+
+
+    //checkout part goes here..........
+    public function billing_address(){
+        $data = [];
+        $data['main_content'] = $this->load->view('front/pages/checkout','',true);
+        $this->load->view('front/front_layout',$data);
+
+    }
+
+    public function save_billing_info(){
+        $data = [];
+        $data['name'] = $this->input->post('name');
+        $data['email_address'] = $this->input->post('email_address');
+        $data['country'] = $this->input->post('country');
+        $data['mobile'] = $this->input->post('mobile');
+
+        $billing_id = $this->welcome_model->save_billing_info($data);
+        $this->session->set_userdata("billing_id",$billing_id);
+
+        $sdata=array();
+        $sdata['message']= "Billing Information has been saved Successfully";
+        $this->session->set_userdata($sdata);
+        redirect('welcome/payment_method');
+    }
+
+    public function payment_method(){
+        $data = [];
+        $data['main_content'] = $this->load->view('front/pages/payment_method','',true);
+        $this->load->view('front/front_layout',$data);
+    }
+
+    public function order_place(){
+       $billing_id = $this->session->userdata("billing_id");
+       echo $billing_id;
+    }
 }
